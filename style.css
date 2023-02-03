@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+}
+
+main {
+    width: 21rem;
+    height: 40rem;
+    background-color: #e4e2e2;
+    border-radius: 15px;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    margin-top:20px;
+}
+
+.playlist {
+    padding-top: 20px;
+}
+
+.off {
+    color: red;
+}
+header i { 
+    height: 4rem;
+    width: 4rem;
+    padding: 18px;
+    font-size: 1.7rem;
+    border-radius: 10px;
+    box-shadow: -5px -5px 15px 0px #ffffff9e, 5px 5px 15px 0px #a3b1c6a8;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.playfoto {
+    background-image: url(./assets/track-image.jpeg);
+    width: 240px;
+    height: 240px;
+    background-size: contain;
+    background-position: center;
+    border-radius: 50%;
+    margin: 30px 0 20px 0;  
+    box-shadow: 0 2px 10px 0 rgba(1, 1, 1, 0.9), 0 19px 20px 0 rgba(0, 1, 6, 0.19);
+}
+.track {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+}
+
+.artist {
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 22px;
+    color: #828283;
+    margin: 10px 0 20px 0;
+}
+
+.player {
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 30px; 
+}
+
+.player i { 
+    height: 3.5rem;
+    width: 3.5rem;
+    padding: 12px;
+    font-size: 1.7rem;
+    border-radius: 15px;
+    box-shadow: -5px -5px 15px 0px #ffffff9e, 5px 5px 15px 0px #a3b1c6a8;
+}
+.play {
+    color: #69e4f3;   
+}
+
+.ward {
+    color:#4b4a4a;
+}
+
+.player i {
+    height: 4rem;
+    width: 3.7rem;
+    padding: 10px;
+    font-size: 2.5rem;
+    border-radius: 20px;
+}
+
+.linear {
+  width: 270px;
+  height: 10px;
+  border-radius: 30px;
+  
+  background-color: #2a8ed4;
+  background-image: linear-gradient(to right, #6cb8ea, #efefef);
+  margin-bottom: 20px;
+}
+
+.linea {
+    width: 200px;
+    height: 9px;
+    border-radius: 20px;
+    background-color: #a6a6a6;
+    background-image: linear-gradient(#a6a6a6, #efefef);
+}
